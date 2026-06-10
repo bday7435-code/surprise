@@ -1,5 +1,5 @@
-// Define a data de término como 1 minuto a partir do momento atual (reload)
-const countDownDate = new Date().getTime() + 15 * 1000; 
+const countDownDate = new Date("2026-06-11T00:00:00+02:00").getTime();
+
 
 const x = setInterval(function() {
     const now = new Date().getTime();
