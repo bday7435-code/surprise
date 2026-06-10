@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A special surprise for you ♥</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>A special surprise for you ♥</h1>
+        <p class="data-liberacao">Unlocking soon...</p>
+        
+        <div id="status-text">Almost there... ♥</div>
+
+        <div id="timer">
+            <div class="time-box"><span id="days">00</span><span class="label">Days</span></div>
+            <div class="time-box"><span id="hours">00</span><span class="label">Hours</span></div>
+            <div class="time-box"><span id="minutes">00</span><span class="label">Minutes</span></div>
+            <div class="time-box"><span id="seconds">00</span><span class="label">Seconds</span></div>
+        </div>
+
+        <div id="video-container" class="hidden">
+            <div class="video-wrapper">
+                <video id="meuVideo" controls playsinline>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p style="color: #ffcccc; font-size: 0.8rem; margin-top: 10px;">*Tap play to start with sound ♥</p>
+        </div>
+
+        <p id="footer-msg" class="hidden">I hope you like it! Made with much love ♥</p>
+    </div>
+
+    <div id="heart-container"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
